@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'IBM Plex Sans';
+    box-sizing:border-box; 
+}
+html{
+    scroll-behavior: smooth;
+    
+}
+body{
+    background: #FFFFFF;
+    color: rgb(8, 8, 8);
+}
+#header{
+    width:100%;
+    height:100%;
+    background-position:center;
+    background-size:cover;
+
+}
+.container{
+    padding:12px 12%;
+} 
+nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap:wrap;
+} 
+.logo{
+    width: 180px;
+}
+nav ul li{
+    display:inline-block;
+    list-style:none;
+    margin:10px 20px;
+}
+nav ul li a{
+    color:rgb(12, 12, 12);
+    text-decoration:none;
+    font-size:12px;
+    font-weight:650;
+    position:relative;
+}
+nav ul li {
+    color:rgb(12, 12, 12);
+    text-decoration:none;
+    font-size:12px;
+    font-weight:650;
+    position:relative;
+}
+nav ul li a:hover{
+    color: dimgrey;
+}
+
+/* -------------------------------------------------- */
+#home{
+    padding:80px 0;
+}
+.row{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.home-col-2{
+    flex-basis:35%;
+}
+.home-col-2 img{
+    width:110%;
+}
+.home-col-1{
+    flex-basis:60%;
+}
+.home-col-1 h1{
+    font-weight:bolder;
+    font-size: 400%;
+    color: black;
+}
+.home-col-1 p{
+    color: dimgrey;
+}
+.gradient{
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.btn{
+    display: block;
+    width: fit-content;
+    border: 0px solid black; 
+    padding: 14px 30px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    box-shadow:  8px 8px 20px 0 #b16cea, 
+             8px 8px 15px 0px #ff5e69,
+             8px 8px 10px 0px #ff8a56,
+             8px 8px 0px 0px #ffa84b;
+    background-image: linear-gradient(108deg, #b16cea 8%, #ff5e69 40%, #ff8a56 77%, #ffa84b 91%);
+}
+
+.btn.btn2{
+    display: inline-block;
+    background: black;
+}
+.button .dwnld{
+    padding: 20px;
+    color:rgb(12, 12, 12);
+    text-decoration:none;
+    font-size: 15px;
+    font-weight:bolder;
+    position:relative;
+}
+.trusted{
+  text-align: center;
+}
+.image{
+    margin: 5px;;
+    padding: 30px;
+    width: 180px; 
+}
